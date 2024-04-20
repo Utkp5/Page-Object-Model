@@ -30,7 +30,7 @@ public class Login_Test {
 	void testLogo()
 	{
 		//lp=new LoginPage(driver);
-		lp = new Login_Page();
+		lp = new Login_Page(driver);
 		
 		Assert.assertEquals(lp.checkLogoPresence(), true);
 	}
